@@ -7,6 +7,8 @@ import java.sql.DriverManager;
  *
  * @author dwicd
  */
+
+//
 public class database {
     
   public static Connection getDBConn() {
