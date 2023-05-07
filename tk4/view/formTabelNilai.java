@@ -13,13 +13,13 @@ import javax.swing.table.DefaultTableModel;
  */
 public class formTabelNilai extends javax.swing.JInternalFrame {
     
-    Connection conn = mahasiswa.database.getDBConn();
+    Connection conn = controller.database.getDBConn();
     Statement st;
     ResultSet rs;
     String sql;
     public int rerata;
     DefaultTableModel tableModel;
-    mahasiswa_model data = new mahasiswa_model();
+    controller.mahasiswa_model data = new controller.mahasiswa_model();
 
           
     /**
