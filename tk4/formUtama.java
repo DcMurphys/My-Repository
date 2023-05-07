@@ -1,4 +1,4 @@
-package mahasiswa;
+package tk4;
 
 import javax.swing.JOptionPane;
 
