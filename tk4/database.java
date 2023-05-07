@@ -1,6 +1,6 @@
 // Class untuk koneksi ke SQL Database via JDBC Driver
 
-package mahasiswa;
+package tk4;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
