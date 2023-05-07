@@ -276,7 +276,7 @@ public class formInputNilai extends javax.swing.JInternalFrame {
 
     private void btn_simpanActionPerformed(java.awt.event.ActionEvent evt) {                                           
         // TODO add your handling code here:
-        mahasiswa_model data = new mahasiswa_model();
+        controller.mahasiswa_model data = new controller.mahasiswa_model();
         data.nim = label_nim3.getText();
         data.nama = label_nama3.getText();
         data.rerata = Integer.parseInt(label_rerata2.getText());
